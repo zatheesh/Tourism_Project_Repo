@@ -6,7 +6,7 @@ import joblib
 # Download the model from Hugging Face Hub
 model_path = hf_hub_download(
     repo_id="zatheesh/Tourism_Project_Model",
-    filename="Tourism-Project_model_v1.joblib"
+    filename="Tourism_Project_Model_v1.joblib"
 )
 
 # Load the trained model
